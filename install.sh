@@ -8,7 +8,7 @@ sudo apt upgrade -y
 sudo apt install x11-xserver-utils build-essential pulseaudio mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers libxft-dev libxinerama-dev libx11-dev nala doas mpd -y
 
 # login managers and some stuff
-sudo nala install lightdm chromium mpv yt-dlp pcmanfm cmus lxappearance lxpolkit pulsemixer picom feh neofetch locate -y
+sudo nala install lightdm chromium mpv yt-dlp thunar cmus lxappearance lxpolkit pulsemixer picom feh neofetch locate -y
 
 # Installing pacstall the aur of debian/ubuntu
 sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
