@@ -14,8 +14,8 @@ sudo apt install lightdm chromium mpv yt-dlp lf cmus nsxiv lxpolkit pulsemixer p
 sudo bash -c "$(curl -fsSL https://pacstall.dev/q/install)"
 
 # Clean up unused packages and free up disk space
-sudo nala autoremove -y
-sudo nala clean
+sudo apt autoremove -y
+sudo apt clean
 
 
 # Enable graphical login and change target from CLI to GUI
